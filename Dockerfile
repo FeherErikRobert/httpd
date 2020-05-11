@@ -1,2 +1,2 @@
-from httpd: lateset
-copy /var/www/html/ /usr/local/apache2/htdocs/
+FROM httpd: lateset
+COPY /var/www/html/ /usr/local/apache2/htdocs/
